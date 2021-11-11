@@ -1,1 +1,1 @@
-# inspirational_quotes_journal
+# Inspirational Quotes Journal
