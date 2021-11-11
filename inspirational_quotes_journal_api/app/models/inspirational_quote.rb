@@ -1,0 +1,2 @@
+class InspirationalQuote < ApplicationRecord
+end
