@@ -36,18 +36,22 @@ class InspirationalQuotesForm extends Component {
 
     render() {
         return (
-            <form onSubmit={this.handleSubmit}>
+            <form className="new_quote" onSubmit={this.handleSubmit}>
                 <label>Quote:</label>
                 <input type='text' value={this.state.quote} onChange={this.handleChange} name="quote"/>
+                <br/>
                 <br/>
                 <label>Author:</label>
                 <input type='text' value={this.state.author} onChange={this.handleChange} name="author"/>
                 <br/>
+                <br/>
                 <label>What Does It Mean To You:</label>
                 <input type='text' value={this.state.meaning} onChange={this.handleChange} name="meaning"/>
                 <br/>
+                <br/>
                 <label>Today's Date:</label>
                 <input type='text' value={this.state.date} onChange={this.handleChange} name="date"/>
+                <br/>
                 <br/>
                 <input type='submit' value="Create Inspirational Quote" />
             </form>
