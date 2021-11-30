@@ -1,0 +1,30 @@
+.new_quote {
+    margin-left: 30%;
+    /* min-width: 300px; */
+    margin-right: 30%;
+    background-color: lavenderblush;
+    /* border-radius: 20px; */
+    margin-bottom: .3em;
+    margin-top: .3em;
+}
+
+.quotes_list {
+    /* margin-left: 30%; */
+    /* min-width: 300px; */
+    /* margin-right: 30%; */
+    /* background-color: pink; */
+    margin-bottom: .9em;
+    /* margin-top: .3em; */ 
+    /* margin: 20px; */
+    background-color: lavenderblush;
+    border-radius: 5px;
+    height: 900px;
+}
+
+.about {
+    margin-bottom: .9em;
+    background-color: lavenderblush;
+    border-radius: 5px;
+    height: 1195px;
+}
+
