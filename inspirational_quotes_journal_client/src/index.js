@@ -9,6 +9,7 @@ import { BrowserRouter as Router } from 'react-router-dom'
 import App from './components/App'
 import { rootReducer } from './reducers/rootReducer'
 
+
 const store = createStore(
     rootReducer, 
     composeWithDevTools(applyMiddleware(thunk))
