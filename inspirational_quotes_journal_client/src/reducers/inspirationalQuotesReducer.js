@@ -1,3 +1,6 @@
+//create a function called inspirational quotes reducer
+//reducer takes in the initial state and action as arguments
+
 export const inspirationalQuotesReducer = (state = [], action) => {
     switch(action.type){
         case 'FETCH_INSPIRATIONAL_QUOTES':
