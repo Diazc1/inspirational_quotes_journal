@@ -16,7 +16,6 @@ class InspirationalQuotesContainer extends Component {
     render() {
         return (
             <div>
-                Inspirational Quotes Container
                 <InspirationalQuotesForm />
             </div>
         );

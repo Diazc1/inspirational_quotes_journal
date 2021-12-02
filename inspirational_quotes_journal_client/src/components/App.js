@@ -1,14 +1,16 @@
 import React from 'react';
-
 import Router from './Router';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import NavbarComp from './NavbarComp';
+import '../App.css'
 
-//anything you want rendered throughout your app goes in your top level component 
-//navlink goes here
 const App = () => {
     return (
-        <div>
-            
-            <Router />
+        <div className="App">
+            <NavbarComp />
+                <div className="container">
+                    <Router />
+                </div>
         </div>
     );
 };
