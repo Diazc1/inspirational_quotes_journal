@@ -1,17 +1,18 @@
 import React from "react";
-//switch allows us to navigate between different routes and it gives us a little bit of performance optimization by making sure that it finds exact route
-//and that the first route matches where we're navigating to 
 import { Routes, Route } from 'react-router-dom';
 import Home from './Home'
 import InspirationalQuotesList from "./InspirationalQuotesList";
 import About from "./About";
+import LiveCodingComponent from "./LiveCodingComponent";
+
 
 const Router = () => {
     return (
         <Routes>
-            <Route path='/' element={<Home/>} />
-            <Route path='/about' element={<About/>} />
-            <Route path='/InspirationalQuotes' element={<InspirationalQuotesList/>} />
+            <Route exact path='/' element={<Home/>} />
+            <Route exact path='/about' element={<About/>} />
+            <Route exact path='/InspirationalQuotes' element={<InspirationalQuotesList/>} />
+            <Route exact path='/LiveCodingComponent' element={<LiveCodingComponent/>} />
         </Routes>
     );
 };
