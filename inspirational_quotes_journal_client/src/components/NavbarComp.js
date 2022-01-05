@@ -12,6 +12,7 @@ class NavbarComp extends Component {
                         <Navbar.Brand href="/">Home</Navbar.Brand>
                         <Navbar.Brand href="/InspirationalQuotes">My Quotes</Navbar.Brand>
                         <Navbar.Brand href="/about">About Me</Navbar.Brand>
+                        <Navbar.Brand href="/LiveCodingComponent">Live Coding</Navbar.Brand>
                         </Nav>
                     </Container>
                 </Navbar>
